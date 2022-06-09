@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<meta charset="UTF-8">
+				<title>Glassprissm clock</title>
+				<link rel="stylesheet" href="style.css">
+				
+</head>
+<body>
+				<div class="container">
+					<div class="box">
+						<div class="clock">
+							<div class="hour">
+							<div class="hr" id="hr"></div>
+							</div>
+							<div class="min">
+							<div class="mn" id="mn"></div>
+							</div>
+							<div class="sec">
+							<div class="sc" id="sc"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script src="script.js"></script>
+	 <!-- <script>
+						const deg = 6;
+						const hr = document.querySelector('#hr');
+						const mn = document.querySelector('#mn');
+         const sc = document.querySelector('#sc');
+          
+          setInterval(() => {
+          
+            Let day = new Date();
+            Let hh = day.getHours() * 30;
+            Let mm = day.getMinutes () * deg;
+            Let ss = day.getSeconds() * deg;
+            
+            hr.style.transform = 'rotatez(${hh+(mm/12)}deg)';
+            mn.style.transform = 'rotatez($(mm)}deg)';
+            sc.style.transform = 'rotatez($(ss)}deg)';
+          })
+          
+				</script> -->
+		
+</body>
+</html>
