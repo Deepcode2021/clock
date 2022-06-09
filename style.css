@@ -16,7 +16,7 @@ body::before{
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background:linear-gradient(45deg,#e91e63 ,#e91e63 50% ,#ffc700 50% ,#ffc700 ) ;
+		background:linear-gradient(45deg,#e91e22 ,#e91e22 50% ,#ffc700 50% ,#ffc700 ) ;
 }
 
 body::after{
